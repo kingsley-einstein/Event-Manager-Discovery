@@ -1,0 +1,9 @@
+---
+applications:
+  - name: event-manager-discovery
+    memory: 1G
+    instances: 1
+    path: ./target/event-manager-discovery-0.0.1-snapshot.jar
+    env:
+      SPRING_PROFILES_ACTIVE: prod
+      

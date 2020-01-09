@@ -1,0 +1,9 @@
+
+server:
+  port: ${PORT}
+spring:
+  application:
+    name: discovery-service
+  cloud:
+    config:
+      uri: ${CLOUD_CONFIG_URI}
